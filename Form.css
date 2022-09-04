@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Norse;
+    src: url('Norse-Bold.otf');
+}
+:focus {
+    box-shadow:0px 2px 10px rgb(0, 183, 255);
+}
+.logo {
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.4);
+    width:50vw;
+    height:15vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    top:40vh;
+}
+.logo > p{
+    font-family: Norse;
+    font-size:10vh;
+}
+#logoimage {
+    height:12vh;
+    
+}
+.maindiv{
+    position:absolute;
+    background-color: white;
+    padding:0px;
+    right:0px;
+    left:50vw;
+    height:100vh;
+    border-left-style:ridge;
+    border-left-color: rgb(33, 84, 151);
+    box-shadow:0px 5px 100px rgb(33, 84, 151);
+    font-size:1.2vh;
+    
+    
+    
+}
+.intro {
+    border-bottom-width: 1px;
+    border-top: none;
+    border-bottom-style:solid;
+    border-bottom-color:blanchedalmond;
+    box-shadow:  0px 5px 5px #cccccc;
+    
+    
+   
+}
+.loghead {
+    margin-left:3vw;
+}
+.header {
+    
+    
+    margin-top:10vh;
+    font-family: Papyrus;
+
+    
+}
+.header2 {
+    font-family: Papyrus
+
+}
+body {
+    margin:0;
+}
+#backimage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.blanks {
+    display:flex;
+    flex-direction: row;
+
+}
+.login {
+    border-bottom-width: 1px;
+    border-top: none;
+    border-bottom-style:solid;
+    border-bottom-color:blanchedalmond;
+    box-shadow:  0px 5px 5px #cccccc;
+    height:30vh;
+    padding: 3vh 0 3vh 0;
+}
+.column1{
+    display:flex;
+    flex-direction:column;
+    margin-left:3vw;
+
+}
+.hid {
+    margin-top:.1vh;
+    color:red;
+    display:none;
+}
+.column2 {
+    display:flex;
+    flex-direction:column;
+    margin-left:4vw;
+}
+input {
+width:10vw;
+height:3vh;
+margin-top:1vh;
+margin-bottom:1vh;
+font-size: 2vh;
+}
+#submit {
+    height:5vh;
+    width:10vw;
+    background-color:green;
+    color:white;
+    border-radius: 12px;
+    font-family: Garamond;
+    font-size: 2vh;
+}
+.footer {
+    padding-top:3vh;
+    padding-left:3vw;
+    margin-top:1vh;
+}

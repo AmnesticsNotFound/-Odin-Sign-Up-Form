@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <script src="Form.js"></script> 
+    <title>Website</title>
+</head>
+<body>
+    <img id = "backimage" src="https://wallpaperaccess.com/full/781775.jpg" alt="https://wallpapercave.com/wp/wp4775691.jpg">
+    <div class="logo"> 
+        <img id ="logoimage" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" >
+        <p>ODIN</p>
+    </div>
+    <div class="maindiv">
+         <div class="intro">
+
+            <h1 class = "header">This is most certainly a real service. Whats that? You think this is for some online web dev curriculum? This isnt on the internet, its REAL.
+                Come visit this desolate wonderland in...well I cant tell you the exact location, but feel free to visit; tickets are 50% off and I'll throw 
+                in a free pen as well!
+            </h1>
+
+            <h1 class="header2"> Fill out the form to begin you're descent into tranquility</h1>
+
+        </div>
+
+        
+        <div class="login"> 
+            <h2 class="loghead"> Sign up today</h2>
+            <div class = "blanks">
+                <div class="column1">
+                    
+                    <label for="first_name">First Name</label>
+                    <input type="text" id ="first_name" name ="fName">
+
+                    
+                    <label for="email">EMAIL</label>
+                    <input type="text" id ="email" name ="email">
+            
+                    
+                    <label for="password">PASSWORD</label>
+                    <input type="text" id ="password" name ="password">
+                    <p class="hid" >*Passwords do not match</p>
+                </div>
+
+                <div class="column2">
+                    
+                    <label for="Last_name">Last Name</label>
+                    <input type="text" id ="Last_name" name ="LName">
+
+                    
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="text" id ="EMAIL" name ="email">
+
+                    
+                    <label for="passwordC">CONFIRM PASSWORD</label>
+                    <input type="text" id ="passwordC" name ="passwordC">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <button type ="submit" id = "submit" onclick ="checkpass()">Create Account</button>
+            <p class="bottomtext">Already have an account? <a href="https://steamcommunity.com/">Sign In</a></p>
+
+
+        </div>
+        
+    
+</div>
+    
+</body>
+</html>
